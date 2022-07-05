@@ -9,10 +9,10 @@ The plateform is composed of three modules :
   
   :ear_of_rice: an ingredient recommendation system that takes into account the carbon emissions, the seasonality and the similarity with the initial ingredient. The similarity was obtained by cleaning 80 000 recipes and applying on then the Google NLP model word2vec.  
   
-  :tractor: a supplier recommendation system that takes into account the distance to the factory, the transport mean, the low carbon labels, the POA label  (protected origin appellation), and the impact of the packaging used.
+  :tractor: a supplier recommendation system that optimises the supplier's carbon emissions based on the distance to the factory, the transport carbon emissions mean, the supplier's low carbon labels, the supplier's POA label (protected origin appellation), and the carbon impact of packaging used for transport.  
   
-  :recycle: a packaging recommendation system taking into account the part of the packaging and the carbon emissions.  
-  
+  :recycle: a packaging recommendation system based on the packaging material's carbon emission, if it is recycled and its recyclable rate (% of material that will be recycled in the future).  
+    
 ## Outputs of the project
     
 :pick:   The tool was built on Datastudio and is available here :  
