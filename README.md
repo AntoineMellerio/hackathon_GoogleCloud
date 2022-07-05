@@ -2,7 +2,7 @@
 # Hackathon GoogleCloud for climate - Datact
 :earth_africa:   Agri-business is responsible of 30% of the world carbon emissions.  
   
-:bulb:   Along with 8 other students, we created an SAAS B2B platform to assist product designers and purchasing managers in the eco-conception and eco-supply of agri-food products.  
+:bulb:   Along with 8 other students, we created an SAAS B2B platform to assist product designers and purchasing managers in the eco-conception and eco-supply of agri-food products. You can find in this repository the notebooks that conducted the analysis, as well as the final functions and the final presentation.   
 
 ## Plateform description
 The plateform is composed of three modules :  
@@ -21,9 +21,8 @@ A .pdf version of it is also in this repository.
   
 :white_check_mark:  The final presentation was held in front of 6 people having sustainability positions of responsability in different sectors (Google Cloud, Renault, Thales, INRIA, PRAIRIES).  
   
-:trophy:   For this project, our team was awarded with the 1st place.    
-You can find in this repository the notebooks that conducted the analysis, as well as the final functions and the final presentation.   
-
+:trophy:   For this project, our team was awarded with the 1st prize.    
+  
 ## Datasets 
 We used 3 open-source datasets :  
 - ADEME, Base carbone : carbon emissions of ingredients and coumposed products caused by production
