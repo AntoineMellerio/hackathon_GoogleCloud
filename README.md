@@ -8,6 +8,7 @@
 - [Plateform description](#plateform-description)  
 - [Outputs of the project](#outputs-of-the-project)  
 - [Datasets](#datasets)  
+- [Recommendation systems' details](#recommendation-systems-details)
 - [Insight of the final tool](#insight-of-the-final-tool)  
 ***
   
@@ -36,8 +37,8 @@ We used 3 open-source datasets :
 - Agribalyze : carbon emissions of ingredients and coumposed products caused by production
 - Open Food Facts : compositions of agri-food products
   
-## Modules' details
-### Ingredient recommendation system
+## Recommendation systems' details
+### Ingredients 
   1 - This module first relies on a **similarity algorithm**. It was obtained by cleaning 80 000 recipes collected from Open Food Fact and applying the Google NLP model word2vec on them. The model identifies the relationships and roles of the ingredients within the recipes. This allows us to output the top 20 most similar items of any ingredient present in the recipes.  
   
   2 - The second criteria of the module is the **category** of the ingredients, gathered from Agribalyze's dataset. Indeed, the final tool would first recommend ingredients of the same category as the inital one.  
