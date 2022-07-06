@@ -43,9 +43,9 @@ We used 3 open-source datasets :
   
   2 - The second criteria of the module is the **category** of the ingredients, gathered from Agribalyze's dataset. Indeed, the final tool would first recommend ingredients of the same category as the inital one.  
   
-  3 - The next step is the **carbon emissions**, collected both from Agribalyze and from the Base Carbone dataset of ADEME.  
+  3 - The next step is the **carbon emissions**, collected both from Agribalyze and from the Base Carbone dataset of ADEME. We only output ingredients with less carbon emissions than the initial one.  
   
-  4 - Finally, we integrate a **seasonality** dataset built ourselves. It allows us to recommend first ingredients of the season the manufacturer wants to produce at. 
+  4 - Finally, we integrate a **seasonality** dataset built ourselves. It allows us to recommend only the ingredients of the season the manufacturer wants to produce at. 
   
 ## Insight of the final tool
 - Page 1 : ingredient and packaging recommendation systems
