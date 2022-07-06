@@ -9,10 +9,10 @@ The plateform is composed of three modules :
   
   :ear_of_rice: an ingredient recommendation system that takes into account the carbon emissions, the seasonality and the similarity with the initial ingredient. The similarity was obtained by cleaning 80 000 recipes and applying on then the Google NLP model word2vec.  
   
+  :recycle: a packaging recommendation system based on the packaging material's carbon emission, if it is recycled and its recyclable rate (% of material that will be recycled in the future).  
+  
   :tractor: a supplier recommendation system that optimises the supplier's carbon emissions based on the distance to the factory, the transport carbon emissions mean, the supplier's low carbon labels, the supplier's POA label (protected origin appellation), and the carbon impact of packaging used for transport.  
   
-  :recycle: a packaging recommendation system based on the packaging material's carbon emission, if it is recycled and its recyclable rate (% of material that will be recycled in the future).  
-    
 ## Outputs of the project
     
 :pick:   The tool was built on Datastudio and is available here :  
@@ -30,8 +30,11 @@ We used 3 open-source datasets :
 - Open Food Facts : compositions of agri-food products
   
 ## Insight of the final tool
-### Page 1 : ingredient and packaging recommendation system
-![final_tool_1](https://user-images.githubusercontent.com/74012095/177353928-680f72ec-2c09-4ea9-a998-2bcf6033f83e.jpg)
-  
-### Page 2 : supplier recommendation system   
-![final_tool_2](https://user-images.githubusercontent.com/74012095/177355713-d2edabe0-547c-4e9c-88eb-5f98792a52a7.jpg)
+- Page 1 : ingredient and packaging recommendation system
+- Page 2 : supplier recommendation system   
+<p align="center">
+  <a href="url">
+    <img src="https://user-images.githubusercontent.com/74012095/177353928-680f72ec-2c09-4ea9-a998-2bcf6033f83e.jpg" height="560" width="500" >
+  <a href="url">
+    <img src="https://user-images.githubusercontent.com/74012095/177355713-d2edabe0-547c-4e9c-88eb-5f98792a52a7.jpg" height="650" width="490" >
+</p>
