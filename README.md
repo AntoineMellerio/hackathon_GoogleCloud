@@ -4,10 +4,17 @@
   
 :bulb:   Along with 8 other students, we created an SAAS B2B platform to assist product designers and purchasing managers in the eco-conception and eco-supply of agri-food products. You can find in this repository the notebooks that conducted the analysis, as well as the final functions and the final presentation.   
 
+### Table of Contents  
+- [Plateform description](#plateform-description)  
+- [Outputs of the project](#outputs-of-the-project)  
+- [Datasets](#datasets)  
+- [Insight of the final tool](#insight-of-the-final-tool)  
+***
+  
 ## Plateform description
 The plateform is composed of three modules :  
   
-  :ear_of_rice: an ingredient recommendation system that takes into account the carbon emissions, the seasonality and the similarity with the initial ingredient. The similarity was obtained by cleaning 80 000 recipes and applying on then the Google NLP model word2vec.  
+  :ear_of_rice: an ingredient recommendation system that takes into account the carbon emissions, the seasonality and the similarity with the initial ingredient.   
   
   :recycle: a packaging recommendation system based on the packaging material's carbon emission, if it is recycled and its recyclable rate (% of material that will be recycled in the future).  
   
@@ -29,8 +36,18 @@ We used 3 open-source datasets :
 - Agribalyze : carbon emissions of ingredients and coumposed products caused by production
 - Open Food Facts : compositions of agri-food products
   
+## Modules' details
+### Ingredient recommendation system
+  1 - This module first relies on a **similarity algorithm**. It was obtained by cleaning 80 000 recipes collected from Open Food Fact and applying the Google NLP model word2vec on them. The model identifies the relationships and roles of the ingredients within the recipes. This allows us to output the top 20 most similar items of any ingredient present in the recipes.  
+  
+  2 - The second criteria of the module is the **category** of the ingredients, gathered from Agribalyze's dataset. Indeed, the final tool would first recommend ingredients of the same category as the inital one.  
+  
+  3 - The next step is the **carbon emissions**, collected both from Agribalyze and from the Base Carbone dataset of ADEME.  
+  
+  4 - Finally, we integrate a **seasonality** dataset built ourselves. It allows us to recommend first ingredients of the season the manufacturer wants to produce at. 
+  
 ## Insight of the final tool
-- Page 1 : ingredient and packaging recommendation system
+- Page 1 : ingredient and packaging recommendation systems
 - Page 2 : supplier recommendation system   
 <p align="center">
   <a href="url">
