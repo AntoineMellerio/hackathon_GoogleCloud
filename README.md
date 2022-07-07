@@ -57,7 +57,7 @@ This allows us to output the top 20 most similar items of any ingredient present
 ### 2 - Packaging 
 - The first criteria of our packaging recommendation system is its **carbon impact**, taken from the ADEME base carbon dataset.
 - The second criteria is the **recyclability** of the matter : is the packaging recycled and what proportion will be recycled in the future ? 
-- The only filter applied in our recommandation involves the **type of product** concerned, whether the packaging is a bottle or a label. 
+- Finally, we apply a filter on the **type of product** concerned, whether the packaging is a bottle or a label. 
 
 ### 3 - Supplier
 - The first criteria taken into account by this module is the **carbon impact of transportation**.  
