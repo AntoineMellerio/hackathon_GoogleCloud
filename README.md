@@ -65,7 +65,7 @@ $$scoring = footprint_{transportation}+footprint_{packaging}+factor_{labels}$$
 
 - The first criteria taken into account by this module is the **carbon impact of the transportation** of the products.  
 The formula used :  
-$$footprint_{transportation} = footprint_{transportation/km,kg}*distance(location_{Supplier}, location_{Manufacture})*weight_{vehicule}$$  
+$$footprint_{transportation} = footprint_{transportation/km,kg}*distance(location_{supplier}, location_{manufacture})*weight_{vehicule}$$  
 Definitions and sources of the different values needed to calculate the previous expression:
   - $footprint_{transportation/km,kg}$ : carbon emissions per km and kg of the transportation means used to deliver the supply - ADEME, Base Carbone
   - $location_{supplier}$ : location of the supplier - supplier
@@ -81,9 +81,9 @@ Definitions and sources of the different values needed to calculate the previous
 
 - Finally, the recommendation system gives importance to the **labels** earned by the supplier.  
 Formula used :  
-$$factor_{labels} = factor_{low_carbon}+factor_{bio}+factor_{PDO}$$  
+$$factor_{labels} = factor_{lowCarbon}+factor_{bio}+factor_{PDO}$$  
 Definitions of the different values needed to calculate the previous expression:
-    - $factor_{low_carbon}$ : factor associated with the low carbon label 
+    - $factor_{lowCarbon}$ : factor associated with the low carbon label 
     - $factor_{bio}$ : factor associated with bio label 
     - $factor_{PDO}$ : factor associated with the PDO label (Protected Designation of Origin)   
   
