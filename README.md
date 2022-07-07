@@ -60,15 +60,32 @@ This allows us to output the top 20 most similar items of any ingredient present
 - Finally, we apply a filter on the **type of product** concerned, whether the packaging is a bottle or a label. 
 
 ### 3 - Supplier
-- The first criteria taken into account by this module is the **carbon impact of transportation**.  
-We use pieces of information that will be directly given by the supplier : its location and the means of transportation used. Combined with the location of the platform user's manufacture and with the carbon emissions of every transportation means given by the ADEME Carbone Base dataset, we are able to evaluate the carbon impact of transportation.  
-The formula applied is the following:  
-$$footprint_{transportation} = footprint_{transportation/km,kg}*distance(location_{Supplier}, location_{Manufacture})*weight_{vehicule}$$
+The scoring used can be decomposed into the transportation footprint, the packaging footprint, and the labels' factors:
+$$scoring = footprint_{transportation}+footprint_{packaging}+factor_{labels}$$  
 
-- The second criteria is the **carbon impact of the packaging** of its products. We use the carbon footprint data of the ADEME Base Carbone dataset and the information of the weights of packagings given by the supplier:  
-$$footprint_{packaging} = footprint_{packaging/kg}*weight_{packaging}$$
+- The first criteria taken into account by this module is the **carbon impact of the transportation** of the products.  
+The formula used :  
+$$footprint_{transportation} = footprint_{transportation/km,kg}*distance(location_{Supplier}, location_{Manufacture})*weight_{vehicule}$$  
+Definitions and sources of the different values needed to calculate the previous expression:
+  - $footprint_{transportation/km,kg}$ : carbon emissions per km and kg of the transportation means used to deliver the supply - ADEME, Base Carbone
+  - $location_{supplier}$ : location of the supplier - supplier
+  - $location_{manufacture}$ : location of the manufacture that transforms the agri-food - Datact user
+  - $weight_{vehicule}$ : average weight of the transportation mean - ADEME, Base Carbone
 
-- Finally, the recommendation system gives importance to the **labels** owned by the supplier : low carbon, bio and PDO (Protected Designation of Origin).   
+- The second criteria is the **carbon impact of the packaging** of the products.  
+Formula used:  
+$$footprint_{packaging} = footprint_{packaging/kg}*weight_{packaging}$$  
+Definitions and sources of the different values needed to calculate the previous expression:
+    - $footprint_{packaging/kg}$ : carbon emissions per kg of the packaging - ADEME, Base Carbone
+    - $weight_{packaging}$ : average weight per type of packaging per product - supplier
+
+- Finally, the recommendation system gives importance to the **labels** earned by the supplier.  
+Formula used :  
+$$factor_{labels} = factor_{low_carbon}+factor_{bio}+factor_{PDO}$$  
+Definitions of the different values needed to calculate the previous expression:
+    - $factor_{low_carbon}$ : factor associated with the low carbon label 
+    - $factor_{bio}$ : factor associated with bio label 
+    - $factor_{PDO}$ : factor associated with the PDO label (Protected Designation of Origin)   
   
 ## Insight of the final tool
 
