@@ -1,40 +1,40 @@
 ![baniere](https://user-images.githubusercontent.com/74012095/177355542-0d9f9e33-04ca-4684-b107-3de62fba269f.png)
 # Hackathon GoogleCloud for climate - Datact
-:earth_africa:   Agri-business is responsible of 30% of the world carbon emissions.  
+:earth_africa:   Agri-business is responsible for 30% of the world's carbon emissions.  
   
 :bulb:   Along with 8 other students, we created an SAAS B2B platform to assist product designers and purchasing managers in the eco-conception and eco-supply of agri-food products. You can find in this repository the notebooks that conducted the analysis, as well as the final functions and the final presentation.   
 
 ### Table of Contents  
-- [Plateform description](#plateform-description)  
+- [Platform description](#platform-description)  
 - [Outputs of the project](#outputs-of-the-project)  
 - [Datasets](#datasets)  
 - [Recommendation systems' criterias](#recommendation-systems-criterias)
 - [Insight of the final tool](#insight-of-the-final-tool)  
 ***
   
-## Plateform description
-The plateform is composed of three modules :  
+## Platform description
+The platform is composed of three modules :  
   
   :ear_of_rice: an ingredient recommendation system that takes into account the carbon emissions, the seasonality and the similarity with the initial ingredient.   
   
   :recycle: a packaging recommendation system based on the packaging material's carbon emission, if it is recycled and its recyclable rate (% of material that will be recycled in the future).  
   
-  :tractor: a supplier recommendation system that optimises the supplier's carbon emissions based on the distance to the factory, the transport carbon emissions mean, the supplier's low carbon, PDO (Protected Designation of Origin) and bio labels, and the carbon impact of packaging used for transport.  
+  :tractor: a supplier recommendation system that optimises the supplier's carbon emissions based on the distance to the factory, the transport carbon emissions average, the supplier's low carbon, PDO (Protected Designation of Origin) and bio labels, and the carbon impact of packaging used for transport.  
   
 ## Outputs of the project
     
-:pick:   The tool was built on Datastudio and is available here :  
+:pick:   The tool was built on DataStudio and is available here :  
 https://datastudio.google.com/reporting/37b9ff78-ddf0-48a0-9c39-5edfd342b7c8  
 A .pdf version of it is also in this repository. 
   
-:white_check_mark:  The final presentation was held in front of 6 people having sustainability positions of responsability in different sectors (Google Cloud, Renault, Thales, INRIA, PRAIRIES).  
+:white_check_mark:  The final presentation was held in front of 6 people having sustainability positions of responsibility in different sectors (Google Cloud, Renault, Thales, INRIA, PRAIRIES).  
   
 :trophy:   For this project, our team was awarded with the 1st prize.    
   
 ## Datasets 
 We used 3 open-source datasets :  
-- ADEME, Base carbone : carbon emissions of ingredients and coumposed products caused by production
-- Agribalyze : carbon emissions of ingredients and coumposed products caused by production
+- ADEME, Base carbone : carbon emissions of ingredients and composed products caused by production
+- Agribalyze : carbon emissions of ingredients and composed products caused by production
 - Open Food Facts : compositions of agri-food products  
   
 Then, we use information given by the suppliers and distributors on :
@@ -48,7 +48,7 @@ Then, we use information given by the suppliers and distributors on :
 The similarity is obtained by cleaning 80 000 recipes collected from Open Food Fact and applying the Google NLP model word2vec on them. The model identifies the relationships and roles of the ingredients within the recipes.  
 This allows us to output the top 20 most similar items of any ingredient present in the recipes.  
   
-- The second criteria of the module is the **category** of the ingredients, gathered from Agribalyze's dataset. Indeed, the final tool would first recommend ingredients of the same category as the inital one.  
+- The second criteria of the module is the **category** of the ingredients, gathered from Agribalyze's dataset. Indeed, the final tool would first recommend ingredients of the same category as the initial one.  
   
 - The next step is the **carbon emissions**, collected both from Agribalyze and from the Base Carbone dataset of ADEME. We only output ingredients with less carbon emissions than the initial one.  
   
@@ -61,7 +61,7 @@ This allows us to output the top 20 most similar items of any ingredient present
 
 ### 3 - Supplier
 - The first criteria taken into account by this module is the **carbon impact of transportation**.  
-We use pieces of information that will be directly given by the supplier : its location and the mean of transportation used. Combined with the location of the plateform user's manufacture and with the carbon emissions of every transportation mean given by the ADEME Carbone Base dataset, we are able to evaluate the carbon impact of transportation.  
+We use pieces of information that will be directly given by the supplier : its location and the means of transportation used. Combined with the location of the platform user's manufacture and with the carbon emissions of every transportation means given by the ADEME Carbone Base dataset, we are able to evaluate the carbon impact of transportation.  
 The formula applied is the following:  
 $$footprint_{transportation} = footprint_{transportation/km,kg}*distance(location_{Supplier}, location_{Manufacture})*weight_{vehicule}$$
 
