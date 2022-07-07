@@ -64,7 +64,7 @@ The scoring used can be decomposed into the transportation footprint, the packag
 $$scoring = footprint_{transportation}+footprint_{packaging}+factor_{labels}$$  
 
 - The first criteria taken into account by this module is the **carbon impact of the transportation** of the products.  
-The formula used :  
+Formula used :  
 $$footprint_{transportation} = footprint_{transportation/km,kg}*distance(location_{supplier}, location_{manufacture})*weight_{vehicule}$$  
 Definitions and sources of the different values needed to calculate the previous expression:
   - $footprint_{transportation/km,kg}$ : carbon emissions per km and kg of the transportation means used to deliver the supply - ADEME, Base Carbone
