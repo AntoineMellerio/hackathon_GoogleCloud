@@ -102,9 +102,9 @@ Definitions of the different values needed to calculate the previous expression:
 
 <p align="center">
   <a href="url">
-    <img src="https://user-images.githubusercontent.com/74012095/177353928-680f72ec-2c09-4ea9-a998-2bcf6033f83e.jpg" height="560" width="500" >
+    <img src="https://user-images.githubusercontent.com/74012095/177353928-680f72ec-2c09-4ea9-a998-2bcf6033f83e.jpg" height="500" width="470" >
   <a href="url">
-    <img src="https://user-images.githubusercontent.com/74012095/177355713-d2edabe0-547c-4e9c-88eb-5f98792a52a7.jpg" height="650" width="490" >
+    <img src="https://user-images.githubusercontent.com/74012095/177355713-d2edabe0-547c-4e9c-88eb-5f98792a52a7.jpg" height="610" width="470" >
 </p>
 
 ### Dynamic presentation
