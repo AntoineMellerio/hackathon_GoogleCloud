@@ -27,7 +27,7 @@ The platform is composed of three modules :
 https://datastudio.google.com/reporting/37b9ff78-ddf0-48a0-9c39-5edfd342b7c8  
 A .pdf version of it is also in this repository. 
   
-:white_check_mark:  The final presentation was held in front of 6 people having sustainability positions of responsibility in different sectors (Google Cloud, Renault, Thales, INRIA, PRAIRIES).  
+:white_check_mark:  The final presentation was held in front of 6 people having sustainability positions of responsibility in different sectors : Google Cloud, Thales, INRIA (PRAIRIES), LVMH, 360 Capital, CleanTech Open France and Startup Inside.  
   
 :trophy:   For this project, our team was awarded with the 1st prize.    
   
