@@ -96,7 +96,7 @@ Definitions of the different values needed to calculate the previous expression:
     - $factor_{PDO}$ : factor associated with the PDO label (Protected Designation of Origin)   
   
 ## Insight of the final tool
-
+### Full pages
 - Page 1 : ingredient and packaging recommendation systems
 - Page 2 : supplier recommendation system   
 
@@ -106,3 +106,10 @@ Definitions of the different values needed to calculate the previous expression:
   <a href="url">
     <img src="https://user-images.githubusercontent.com/74012095/177355713-d2edabe0-547c-4e9c-88eb-5f98792a52a7.jpg" height="650" width="490" >
 </p>
+
+### Dynamic presentation
+<p align="center">
+    <a href="url">
+  <img src=https://user-images.githubusercontent.com/74012095/178308773-1fa5f773-0fdb-49ec-8586-d642b5b78fd2.gif height="250" width="520" >
+</p>
+
