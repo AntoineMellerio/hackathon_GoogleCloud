@@ -34,7 +34,7 @@ A .pdf version of it is also in this repository.
 - Isaelle Ryl, Director of PRAIRIES (PaRis Artificial Intelligence Research InstitutE) at INRIA
 - Thomas Nivard, VC investor at 360 Capital
 - Guillaume Roques, Senior Director - Google Coud Marketing EMEA at Google
-- Pierre Deron, Directeur Délégué at CleanTech Open France
+- Pierre Deron, Director at CleanTech Open France
 - Damien Gromier, CEO at Startup Inside  
   
 :trophy:   For this project, our team was awarded with the 1st prize.    
