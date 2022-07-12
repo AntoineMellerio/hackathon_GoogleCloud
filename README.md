@@ -117,10 +117,10 @@ Definitions of the different values needed to calculate the previous expression:
 #### Supplier recommendation
 <p align="left">
   <a href="url">
-    <img src=https://user-images.githubusercontent.com/74012095/178448642-0d903fb3-9323-4c25-ac24-478bf7ee92b0.gif height="270" width="530" >
+    <img src=https://user-images.githubusercontent.com/74012095/178448642-0d903fb3-9323-4c25-ac24-478bf7ee92b0.gif height="280" width="530" >
 </p>  
 
 <p align="left">
   <a href="url">
-    <img src="https://user-images.githubusercontent.com/74012095/178489790-7ab78265-b870-4e4a-b20f-30bd5fa0358a.gif" height="270" width="530" />
+    <img src="https://user-images.githubusercontent.com/74012095/178489790-7ab78265-b870-4e4a-b20f-30bd5fa0358a.gif" height="280" width="530" >
 </p>  
