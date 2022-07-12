@@ -104,7 +104,7 @@ Definitions of the different values needed to calculate the previous expression:
   <a href="url">
     <img src="https://user-images.githubusercontent.com/74012095/177353928-680f72ec-2c09-4ea9-a998-2bcf6033f83e.jpg" height="500" width="470" >
   <a href="url">
-    <img src="https://user-images.githubusercontent.com/74012095/177355713-d2edabe0-547c-4e9c-88eb-5f98792a52a7.jpg" height="610" width="470" >
+    <img src="https://user-images.githubusercontent.com/74012095/177355713-d2edabe0-547c-4e9c-88eb-5f98792a52a7.jpg" height="630" width="480" >
 </p>
 
 ### Dynamic presentation
@@ -117,8 +117,10 @@ Definitions of the different values needed to calculate the previous expression:
 #### Supplier recommendation
 <p align="left">
   <a href="url">
-    <img src=https://user-images.githubusercontent.com/74012095/178448642-0d903fb3-9323-4c25-ac24-478bf7ee92b0.gif height="270" width="520" >
-  <a href="url">
-    <img src=https://user-images.githubusercontent.com/74012095/178487019-7e37db02-734b-4977-a0ff-8c4627c87457.gif height="270" width="520" >
-</p>
+    <img src=https://user-images.githubusercontent.com/74012095/178448642-0d903fb3-9323-4c25-ac24-478bf7ee92b0.gif height="270" width="530" >
+</p>  
 
+<p align="left">
+  <a href="url">
+    <img src="https://user-images.githubusercontent.com/74012095/178489790-7ab78265-b870-4e4a-b20f-30bd5fa0358a.gif" height="270" width="530" />
+</p>  
