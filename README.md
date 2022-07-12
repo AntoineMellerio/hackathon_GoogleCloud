@@ -108,8 +108,17 @@ Definitions of the different values needed to calculate the previous expression:
 </p>
 
 ### Dynamic presentation
-<p align="center">
-    <a href="url">
-  <img src=https://user-images.githubusercontent.com/74012095/178308773-1fa5f773-0fdb-49ec-8586-d642b5b78fd2.gif height="250" width="520" >
+#### Ingredient recommendation
+<p align="left">
+  <a href="url">
+    <img src=https://user-images.githubusercontent.com/74012095/178308773-1fa5f773-0fdb-49ec-8586-d642b5b78fd2.gif height="250" width="520" >
+</p>  
+  
+#### Supplier recommendation
+<p align="left">
+  <a href="url">
+    <img src=https://user-images.githubusercontent.com/74012095/178448642-0d903fb3-9323-4c25-ac24-478bf7ee92b0.gif height="270" width="520" >
+  <a href="url">
+    <img src=https://user-images.githubusercontent.com/74012095/178487019-7e37db02-734b-4977-a0ff-8c4627c87457.gif height="270" width="520" >
 </p>
 
