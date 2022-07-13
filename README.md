@@ -93,15 +93,15 @@ $$supplier.score = w_c - w_c*carbon.score + w_{lc} * label_{low Carbon} * w_{lb}
   
 #### Detail of carbon.score
 $$carbon.score = transport.footprint+packaging.footprint$$  
-- $transport.footprint = transport.footprint_{CO2kg/km,tonnes(vehicule),kg(product)} * distance(supplier.location, manufacture.location)_{km} * vehicule.weight_{tonnes}$  
+- $transport.footprint = transport.footprint_{CO2kg/km,tonnes(vehicule),kg(product)} * distance(supplier.location, manufacture.location)_{km} * vehicule.weight_{kg}$  
   - $transport.footprint_{CO2kg/km,tonnes(vehicule),kg(product)}$ : carbon emissions per km and kg of the transportation means used to deliver the supply - ADEME, Base Carbone
-  - $location_{supplier}$ : location of the supplier - supplier
-  - $location_{manufacture}$ : location of the manufacture that transforms the agri-food - Datact user
+  - $supplier.location$ : location of the supplier - supplier
+  - $manufacture.location$ : location of the manufacture that transforms the agri-food - Datact user
   - $vehicule.weight$ : average weight of the transportation (in tonnes), estimated - ADEME, Base Carbone
   
 - $packaging.footprint = packaging.footprint_{CO2kg/kg(packaging),kg(product)} * packaging.weight_{kg}$  
-  - $packaging.carbon.footprint_{CO2kg/kg(packaging)}$ : carbon emissions per kg of the packaging - ADEME, Base Carbone
-  - $packaging.weight$ : average weight per type of packaging per product - supplier data
+  - $packaging.carbon.footprint_{CO2kg/kg(packaging),kg(product)}$ : carbon emissions per kg of the packaging and per kg of the product - ADEME, Base Carbone
+  - $packaging.weight_{kg}$ : average weight per type of packaging per product - supplier data
    
 ## Insight of the final tool
 ### Full pages
