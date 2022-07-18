@@ -93,10 +93,10 @@ $$supplier.score = w_c - w_c*carbon.score + w_{lc} * label_{low Carbon} * w_{lb}
   
 #### Detail of carbon.score
 $$carbon.score = transport.footprint+packaging.footprint$$  
-- $transport.footprint = transport.footprint_{CO2kg/km,tonnes(vehicule),kg(product)} * distance(supplier.location, manufacture.location)_{km} * vehicule.weight_{kg}$  
+- $transport.footprint = transport.footprint_{CO2kg/km,tonnes(vehicule),kg(product)} * distance(supplier, manufacture)_{km}*vehicule.weight$  
   - $transport.footprint_{CO2kg/km,tonnes(vehicule),kg(product)}$ : carbon emissions per km and kg of the transportation means used to deliver the supply - ADEME, Base Carbone
-  - $supplier.location$ : location of the supplier - supplier
-  - $manufacture.location$ : location of the manufacture that transforms the agri-food - Datact user
+  - $supplier.loc$ : location of the supplier - supplier
+  - $manufacture.loc$ : location of the manufacture that transforms the agri-food - Datact user
   - $vehicule.weight$ : average weight of the transportation (in tonnes), estimated - ADEME, Base Carbone
   
 - $packaging.footprint = packaging.footprint_{CO2kg/kg(packaging),kg(product)} * packaging.weight_{kg}$  
