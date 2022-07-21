@@ -52,56 +52,55 @@ Then, we use information given by the suppliers and distributors on :
 
 ## Recommendation systems' criterias
 ### 1 - Ingredients
-- This module first relies on a **similarity algorithm**.  
+This module first relies on a **similarity algorithm**.  
 The similarity is obtained by cleaning 80 000 recipes collected from Open Food Fact and applying the Google NLP model word2vec on them. The model identifies the relationships and roles of the ingredients within the recipes.  
 This allows us to output the top 20 most similar items of any ingredient present in the recipes.  
-
-- The second criteria of the module is the **category** of the ingredients, gathered from Agribalyze's dataset. Indeed, the final tool would first recommend ingredients of the same category as the initial one.  
-
-- The next step is the **carbon emissions**, collected both from Agribalyze and from the Base Carbone dataset of ADEME. We only output ingredients with less carbon emissions than the initial one.  
-
-- Finally, we integrate a **seasonality** dataset built ourselves. It allows us to recommend only the ingredients of the season the manufacturer wants to produce at.  
+  
+The second criteria of the module is the **category** of the ingredients, gathered from Agribalyze's dataset. Indeed, the final tool would first recommend ingredients of the same category as the initial one.  
+  
+The next step is the **carbon emissions**, collected both from Agribalyze and from the Base Carbone dataset of ADEME. We only output ingredients with less carbon emissions than the initial one.  
+  
+Finally, we integrate a **seasonality** dataset built ourselves. It allows us to recommend only the ingredients of the season the manufacturer wants to produce at.  
 
 ### 2 - Packaging
-- The first criteria of our packaging recommendation system is its **carbon impact**, taken from the ADEME base carbon dataset.
-- The second criteria is the **recyclability** of the matter : is the packaging recycled and what proportion will be recycled in the future ?
-- Finally, we apply a filter on the **type of product** concerned, whether the packaging is a bottle or a label.  
+The first criteria of our packaging recommendation system is its **carbon impact**, taken from the ADEME base carbon dataset.  
+  
+The second criteria is the **recyclability** of the matter : is the packaging recycled and what proportion will be recycled in the future ?  
+  
+Finally, we apply a filter on the **type of product** concerned, whether the packaging is a bottle or a label.  
   
 The packaging recommendation algorithm associates a score between 0 and 1.  
 
-#### Weights by default  
-$$packaging.score = 0.7 - 0.7*carbon.score + 0.2 * recyclable.rate + 0.1 * recycled.factor$$  
-- $carbon.score$: score between 0 and 1 representing the normalised carbon impact of transport and packaging measured as explained previously (1 is the suppliers highest carbon footprint and 0 the smallest)
+$$packaging.score = w_c - w_c*carbon.score + w_{rr} * recyclable.rate + w_r * recycled.factor$$  
+- $carbon.score$: score between 0 and 1 representing the normalised carbon impact of transport and packaging measured as explained previously (1 is the suppliers highest carbon footprint and 0 the smallest), sourced from ADEME Base Carbone
 - $recyclable.rate$: rate between 0 and 1 representing the percentage of material recycled after usage - sourced from CITEO
 - $recycled.factor$: binary value specifying if the product is recycled (0 for non-recycled and 1 for recycled material)
   
-#### Personnalizable weights
-We have added a feature to our product thanks to which the client will be able to include personnalisable weights ($w_c$ for carbon score, $w_{rr}$ for recyclable rate, $w_r$ for recycled) in the score measure to specify their priorities:  
-$$packaging.score = w_c - w_c*carbon.score + w_{rr} * recyclable.rate + w_r * recycled.factor$$  
+The weights are personnalisable to fit the client's priorities. Default weights : $w_c=0.7$  ;  $w_{rr}=0.2$  ;  $w_r=0.1$
   
 ### 3 - Supplier
 The scoring used can be decomposed into the transportation footprint, the packaging footprint, and the labels' factors. The final tool computes a score measuring the carbon impact for each supplier.  
-
-#### Weights by default  
-$$supplier.score = 0.7 - 0.7*carbon.score + 0.1 * label_{low Carbon} + 0.1 * label_{bio} + 0.1 * label_{PDO}$$  
-- $carbon.score$: score between 0 and 1 representing the normalised carbon impact of transport and packaging measured as explained previously (1 is the suppliers highest carbon footprint and 0 the smallest)
-- $label_{low Carbon}, label_{bio}, label_{PDO}$: binary values representing the presence of the labels specified below (0 for absent label and 1 for present label).
-  
-#### Personnalizable weights
-We have added a feature to our product thanks to which the client will be able to include personnalisable weights ($w_c$ for carbon score, $w_{lc}$ for low carbon label, $w_{lb}$ for label bio, $w_{lp}$ for PDO label) in the score measure to specify their priorities:  
 $$supplier.score = w_c - w_c*carbon.score + w_{lc} * label_{low Carbon} * w_{lb} * label_{bio} + w_{lp} * label_{PDO}$$  
+- $label_{low Carbon}, label_{bio}, label_{PDO}$: binary values representing the presence of the labels specified below (0 for absent label and 1 for present label)
+- $carbon.score$: score between 0 and 1 representing the normalised carbon impact of transport and packaging measured (1 is the suppliers highest carbon footprint and 0 the smallest) : $carbon.score = transport.footprint+packaging.footprint$  
+  - $transport.footprint = transport.footprint_{CO2kg/km,tonnes(vehicule),kg(product)} * distance(supplier, manufacture)_{km}*vehicule.weight$  
+  - $packaging.footprint = packaging.footprint_{CO2kg/kg(packaging),kg(product)} * packaging.weight_{kg}$  
   
-#### Detail of carbon.score
-$$carbon.score = transport.footprint+packaging.footprint$$  
-- $transport.footprint = transport.footprint_{CO2kg/km,tonnes(vehicule),kg(product)} * distance(supplier, manufacture)_{km}*vehicule.weight$  
-  - $transport.footprint_{CO2kg/km,tonnes(vehicule),kg(product)}$ : carbon emissions per km and kg of the transportation means used to deliver the supply - ADEME, Base Carbone
-  - $supplier.loc$ : location of the supplier - supplier
-  - $manufacture.loc$ : location of the manufacture that transforms the agri-food - Datact user
-  - $vehicule.weight$ : average weight of the transportation (in tonnes), estimated - ADEME, Base Carbone
+The weights are personnalisable to fit the client's priorities. Default weights : $w_c=0.7$  ;  $w_{lc}= w_{lb}= w_{lp}=0.1$
   
-- $packaging.footprint = packaging.footprint_{CO2kg/kg(packaging),kg(product)} * packaging.weight_{kg}$  
-  - $packaging.carbon.footprint_{CO2kg/kg(packaging),kg(product)}$ : carbon emissions per kg of the packaging and per kg of the product - ADEME, Base Carbone
-  - $packaging.weight_{kg}$ : average weight per type of packaging per product - supplier data
+The data are given by the following sources :  
+  
+*ADEME, Base Carbone*  
+- $transport.footprint_{CO2kg/km,tonnes(vehicule),kg(product)}$ : carbon emissions per km and kg of the transportation means used to deliver the supply
+- $vehicule.weight$ : average weight of the transportation (in tonnes) estimated
+- $packaging.carbon.footprint_{CO2kg/kg(packaging),kg(product)}$ : carbon emissions per kg of the packaging and per kg of the product
+  
+*Supplier*  
+- $supplier.loc$ : location of the supplier
+- $packaging.weight_{kg}$ : average weight per type of packaging per product  
+  
+*Datact user*  
+- $manufacture.loc$ : location of the manufacture that transforms the agri-food
    
 ## Insight of the final tool
 ### Full pages
