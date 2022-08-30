@@ -76,7 +76,8 @@ $$packaging.score = w_c - w_c*carbon.score + w_{rr} * recyclable.rate + w_r * re
 - $recyclable.rate$: rate between 0 and 1 representing the percentage of material recycled after usage - sourced from CITEO
 - $recycled.factor$: binary value specifying if the product is recycled (0 for non-recycled and 1 for recycled material)
   
-The weights are personnalisable to fit the client's priorities. Default weights : $w_c=0.7$  ;  $w_{rr}=0.2$  ;  $w_r=0.1$
+The weights are personnalisable to fit the client's priorities. Default weights :  
+$$w_c=0.7  ;  w_{rr}=0.2  ;  w_r=0.1$$
   
 ### 3 - Supplier
 The scoring used can be decomposed into the transportation footprint, the packaging footprint, and the labels' factors. The final tool computes a score measuring the carbon impact for each supplier.  
@@ -86,7 +87,8 @@ $$supplier.score = w_c - w_c*carbon.score + w_{lc} * label_{low Carbon} * w_{lb}
   - $transport.footprint = transport.footprint_{CO2kg/km,tonnes(vehicule),kg(product)} * distance(supplier, manufacture)_{km}*vehicule.weight$  
   - $packaging.footprint = packaging.footprint_{CO2kg/kg(packaging),kg(product)} * packaging.weight_{kg}$  
   
-The weights are personnalisable to fit the client's priorities. Default weights : $w_c=0.7$  ;  $w_{lc}= w_{lb}= w_{lp}=0.1$
+The weights are personnalisable to fit the client's priorities. Default weights :  
+$$w_c=0.7  ;  w_{lc}= w_{lb}= w_{lp}=0.1$$
   
 The data are given by the following sources :  
   
