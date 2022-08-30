@@ -92,7 +92,7 @@ $$supplier.score = w_c - w_c*carbon.score + w_{lc} * label_{low Carbon} * w_{lb}
   
 The weights are personnalisable to fit the client's priorities.  
 Default weights :  
-$w_c=0.7  
+$w_c=0.7$  
 $w_{lc}= w_{lb}= w_{lp}=0.1$  
   
 The data are given by the following sources :  
