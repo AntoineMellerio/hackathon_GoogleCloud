@@ -1,0 +1,155 @@
+Catégorie,Matière,kg équivalent CO2 / tonne,Taux de recyclage,Id matière,Recyclé,Type emballage
+Papier,Pâte à papier primaire,297,62,1,0,Pochette
+Papier,Pâte à papier primaire recyclée,317,52,2,1,Pochette
+Papier,Pâte à papier Eucalyptus,440,61.5,3,0,Pochette
+Papier,Pâte à papier Résineux,410,56.5,4,0,Pochette
+Papier,Pâte à papier Feuillus,400,60.5,5,0,Pochette
+Papier,Pâte à papier Papier recyclé,470,54,6,1,Pochette
+Papier,Papier moyen,919,61,7,0,Pochette
+Papier,Pâte à papier primaire,297,62,1,0,Sac
+Papier,Pâte à papier primaire recyclée,317,52,2,1,Sac
+Papier,Pâte à papier Eucalyptus,440,61.5,3,0,Sac
+Papier,Pâte à papier Résineux,410,56.5,4,0,Sac
+Papier,Pâte à papier Feuillus,400,60.5,5,0,Sac
+Papier,Pâte à papier Papier recyclé,470,54,6,1,Sac
+Papier,Papier moyen,919,61,7,0,Sac
+Papier,Pâte à papier primaire,297,62,1,0,Étiquette
+Papier,Pâte à papier primaire recyclée,317,52,2,1,Étiquette
+Papier,Pâte à papier Eucalyptus,440,61.5,3,0,Étiquette
+Papier,Pâte à papier Résineux,410,56.5,4,0,Étiquette
+Papier,Pâte à papier Feuillus,400,60.5,5,0,Étiquette
+Papier,Pâte à papier Papier recyclé,470,54,6,1,Étiquette
+Papier,Papier moyen,919,61,7,0,Étiquette
+Papier,Pâte à papier primaire,297,62,1,0,Suremballage
+Papier,Pâte à papier primaire recyclée,317,52,2,1,Suremballage
+Papier,Pâte à papier Eucalyptus,440,61.5,3,0,Suremballage
+Papier,Pâte à papier Résineux,410,56.5,4,0,Suremballage
+Papier,Pâte à papier Feuillus,400,60.5,5,0,Suremballage
+Papier,Pâte à papier Papier recyclé,470,54,6,1,Suremballage
+Papier,Papier moyen,919,61,7,0,Suremballage
+Papier,Pâte à papier primaire,297,62,1,0,Enveloppe blanche
+Papier,Pâte à papier primaire recyclée,317,52,2,1,Enveloppe blanche
+Papier,Pâte à papier Eucalyptus,440,61.5,3,0,Enveloppe blanche
+Papier,Pâte à papier Résineux,410,56.5,4,0,Enveloppe blanche
+Papier,Pâte à papier Feuillus,400,60.5,5,0,Enveloppe blanche
+Papier,Pâte à papier Papier recyclé,470,54,6,1,Enveloppe blanche
+Papier,Papier moyen,919,61,7,0,Enveloppe blanche
+Papier,Pâte à papier primaire,297,62,1,0,Serviette 
+Papier,Pâte à papier primaire recyclée,317,52,2,1,Serviette 
+Papier,Pâte à papier Eucalyptus,440,61.5,3,0,Serviette 
+Papier,Pâte à papier Résineux,410,56.5,4,0,Serviette 
+Papier,Pâte à papier Feuillus,400,60.5,5,0,Serviette 
+Papier,Pâte à papier Papier recyclé,470,54,6,1,Serviette 
+Papier,Papier moyen,919,61,7,0,Serviette 
+Carton,Carton primaire,390,62.5,8,0,Brique
+Carton,Carton recyclé,670,49,9,1,Brique
+Carton,Carton primaire,390,62.5,8,0,Boîte
+Carton,Carton recyclé,670,49,9,1,Boîte
+Carton,Carton primaire,390,62.5,8,0,Récipient
+Carton,Carton recyclé,670,49,9,1,Récipient
+Carton,Carton primaire,390,62.5,8,0,Barquette
+Carton,Carton recyclé,670,49,9,1,Barquette
+Plastique,Plastique transparent,2350,61,10,0,Fourchette
+Plastique,Plastique blanc,2025,63,11,0,Fourchette
+Plastique,Plastique ,2150,59,12,0,Fourchette
+Plastique,Plastique 100% ex-recyclé,202,36,13,1,Fourchette
+Plastique,Plastique transparent,2350,61,10,0,Couteau
+Plastique,Plastique blanc,2025,63,11,0,Couteau
+Plastique,Plastique ,2150,59,12,0,Couteau
+Plastique,Plastique 100% ex-recyclé,202,36,13,1,Couteau
+Plastique,Plastique transparent,2350,61,12,0,Cuillère
+Plastique,Plastique blanc,2025,63,11,0,Cuillère
+Plastique,Plastique ,2150,59,12,0,Cuillère
+Plastique,Plastique 100% ex-recyclé,202,36,13,1,Cuillère
+Plastique,Plastique transparent,2350,61,12,0,Suremballage 
+Plastique,Plastique blanc,2025,63,11,0,Suremballage 
+Plastique,Plastique ,2150,59,12,0,Suremballage 
+Plastique,Plastique 100% ex-recyclé,202,36,13,1,Suremballage 
+Plastique,Plastique transparent,2350,61,12,0,Film 
+Plastique,Plastique blanc,2025,63,11,0,Film 
+Plastique,Plastique ,2150,59,12,0,Film 
+Plastique,Plastique 100% ex-recyclé,202,36,13,1,Film 
+Plastique,Plastique transparent,2350,61,12,0,Barquette 
+Plastique,Plastique blanc,2025,63,11,0,Barquette 
+Plastique,Plastique ,2150,59,12,0,Barquette 
+Plastique,Plastique 100% ex-recyclé,202,36,13,1,Barquette 
+Plastique,Plastique transparent,2350,61,12,0,Bocal 
+Plastique,Plastique blanc,2025,63,11,0,Bocal 
+Plastique,Plastique ,2150,59,12,0,Bocal 
+Plastique,Plastique 100% ex-recyclé,202,36,13,1,Bocal 
+Plastique,Plastique transparent,2350,61,12,0,Pachette
+Plastique,Plastique blanc,2025,63,11,0,Pachette
+Plastique,Plastique ,2150,59,12,0,Pachette
+Plastique,Plastique 100% ex-recyclé,202,36,13,1,Pachette
+Plastique,Plastique transparent,2350,61,12,0,Sac
+Plastique,Plastique blanc,2025,63,11,0,Sac
+Plastique,Plastique ,2150,59,12,0,Sac
+Plastique,Plastique 100% ex-recyclé,202,36,13,1,Sac
+Plastique,Plastique transparent,2350,61,12,0,Bouteille 
+Plastique,Plastique blanc,2025,63,11,0,Bouteille 
+Plastique,Plastique ,2150,59,12,0,Bouteille 
+Plastique,Plastique 100% ex-recyclé,202,36,13,1,Bouteille 
+Plastique,Plastique transparent,2350,61,12,0,Couvercle 
+Plastique,Plastique blanc,2025,63,11,0,Couvercle 
+Plastique,Plastique ,2150,59,12,0,Couvercle 
+Plastique,Plastique 100% ex-recyclé,202,36,13,1,Couvercle 
+Polystyrène,Polystyrène primaire ou vierge,2824,19,14,0,Barquette
+Polystyrène,polystyrène « high impact »,2900,16,15,0,Barquette
+Polystyrène,polystyrène thermoformé,3600,14,16,0,Barquette
+Polystyrène,polystyrène primaire,2824,23,17,0,Barquette
+Polystyrène,styrène,2700,11,18,0,Barquette
+Polystyrène,Polystyrène recyclé,2820,5,19,1,Barquette
+Polystyrène,Polystyrène primaire ou vierge,2824,19,14,0,Bocal 
+Polystyrène,polystyrène « high impact »,2900,16,15,0,Bocal 
+Polystyrène,polystyrène thermoformé,3600,14,16,0,Bocal 
+Polystyrène,polystyrène primaire,2824,23,17,0,Bocal 
+Polystyrène,styrène,2700,11,18,0,Bocal 
+Polystyrène,Polystyrène recyclé,2820,5,19,1,Bocal 
+Polystyrène,Polystyrène primaire ou vierge,2824,19,14,0,Boîte
+Polystyrène,polystyrène « high impact »,2900,16,15,0,Boîte
+Polystyrène,polystyrène thermoformé,3600,14,16,0,Boîte
+Polystyrène,polystyrène primaire,2824,23,17,0,Boîte
+Polystyrène,styrène,2700,11,18,0,Boîte
+Polystyrène,Polystyrène recyclé,2820,5,19,1,Boîte
+PVC,Polychlorure de Vinyle (PVC) primaire,1890,16,20,0,
+PVC,PVC transformé,2610,13,21,0,
+PVC,PVC recyclé,400,8,22,1,
+PVC,Polyéthylène haute densité primaire,1914,17,23,0,
+PVC,Polyéthylène haute densité issu de recyclé,202,15,24,1,
+PVC,Polyéthylène basse densité primaire,2090,13,25,0,
+PVC,Polyéthylène basse densité issu de recyclé,202,7,26,1,
+PVC,PET amorphe primaire (ou vierge),3260,20,27,0,
+PVC,PET amorphe,4305,17,28,0,
+PVC,PET qualité bouteille,3410,34,29,0,
+PVC,PET en film,5500,15,30,0,
+PVC,PET qualité bouteille 100% ex-recyclé,348,53,31,1,
+PVC,PET en film recyclé,2460,14,32,1,
+Nylon,Nylon,7720.5,9,33,0,
+Verre,Verre flotté plat,1260,4,34,0,Bouteille
+Verre,Verre d'emballage,810,70,35,0,Bouteille
+Verre,Verre courbé,2390,25,36,0,Bouteille
+Verre,Verre renforcé,4560,10,37,0,Bouteille
+Verre,Verre de sécurité laminé RER,3420,25,38,0,Bouteille
+Verre,Cristal/Verre au plomb RER,1900,0,39,0,Bouteille
+Verre,Verre à motifs RER,1160,0,40,0,Bouteille
+Verre,Verre flotté plat,1260,4,34,0,Bocal
+Verre,Verre d'emballage,810,70,35,0,Bocal
+Verre,Verre courbé,2390,25,36,0,Bocal
+Verre,Verre renforcé,4560,10,37,0,Bocal
+Verre,Verre de sécurité laminé RER,3420,25,38,0,Bocal
+Verre,Cristal/Verre au plomb RER,1900,0,39,0,Bocal
+Verre,Verre à motifs RER,1160,0,40,0,Bocal
+Verre,Verre flotté plat,1260,4,34,0,Boîte
+Verre,Verre d'emballage,810,70,35,0,Boîte
+Verre,Verre courbé,2390,25,36,0,Boîte
+Verre,Verre renforcé,4560,10,37,0,Boîte
+Verre,Verre de sécurité laminé RER,3420,25,38,0,Boîte
+Verre,Cristal/Verre au plomb RER,1900,0,39,0,Boîte
+Verre,Verre à motifs RER,1160,0,40,0,Boîte
+Bois,Bois primaire ,964,61,39,0,Cagette
+Bois,Bois primaire ,964,61,39,0,Barquette
+Bois,Bois primaire ,964,61,39,0,Boîte
+Bois,Bois primaire ,964,61,39,0,Palette
+Bois,Bois primaire ,964,61,39,0,Fourchette
+Bois,Bois primaire ,964,61,39,0,Couteau
+Bois,Bois primaire ,964,61,39,0,Cuillère

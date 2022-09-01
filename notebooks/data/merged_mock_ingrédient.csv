@@ -1,0 +1,462 @@
+,Produit,Unnamed: 1,ingredient_initial,pourcentage,ingredient_reco,similarity,carbon_emission,categorie,saison,carbon_emission_total
+0,barre,0.0,flocon d'avoine,0.3,flocon d'avoine,1.0,0.013,,,
+1,barre,18.0,abricot,0.3,fraise,0.951731,0.143449,"['fruits, légumes, légumineuses et oléagineux'...",Printemps,0.0430347
+2,barre,18.0,abricot,0.3,fraise,0.951731,0.143449,"['fruits, légumes, légumineuses et oléagineux'...",Eté,0.0430347
+3,barre,0.0,abricot,0.3,poire,0.992666,0.050273,"['fruits, légumes, légumineuses et oléagineux'...",Hiver,0.0150819
+4,barre,0.0,abricot,0.3,poire,0.992666,0.050273,"['fruits, légumes, légumineuses et oléagineux'...",Printemps,0.0150819
+5,barre,0.0,abricot,0.3,poire,0.992666,0.050273,"['fruits, légumes, légumineuses et oléagineux'...",Eté,0.0150819
+6,barre,0.0,abricot,0.3,poire,0.992666,0.050273,"['fruits, légumes, légumineuses et oléagineux'...",Automne,0.0150819
+7,barre,1.0,abricot,0.3,goyave,0.991672,0.116,,,0.0348
+8,barre,11.0,abricot,0.3,cerise,0.969705,0.127,,Printemps,0.0381
+9,barre,11.0,abricot,0.3,cerise,0.969705,0.127,,Eté,0.0381
+10,barre,17.0,abricot,0.3,the,0.951822,0.139475,['boissons'],,0.0418425
+11,barre,8.0,abricot,0.3,orange,0.979973,0.139611,"['boissons', 'produits sucrés', 'aliments infa...",Hiver,0.0418833
+12,barre,8.0,abricot,0.3,orange,0.979973,0.139611,"['boissons', 'produits sucrés', 'aliments infa...",Automne,0.0418833
+13,barre,16.0,abricot,0.3,myrtille,0.952426,0.1615,,Eté,0.04845
+14,barre,16.0,abricot,0.3,myrtille,0.952426,0.1615,,Automne,0.04845
+15,barre,13.0,abricot,0.3,grenade,0.962897,0.167605,['boissons'],,0.0502815
+16,barre,2.0,abricot,0.3,peche,0.989747,0.207248,"['fruits, légumes, légumineuses et oléagineux']",,0.0621744
+17,barre,3.0,abricot,0.3,groseille,0.988356,0.229612,['boissons'],Printemps,0.0688836
+18,barre,3.0,abricot,0.3,groseille,0.988356,0.229612,['boissons'],Eté,0.0688836
+19,barre,0.0,abricot,0.3,abricot,1.0,0.293901,"[produits sucrés, produits céréaliers, lait et...",Printemps,0.0881703
+20,barre,0.0,abricot,0.3,abricot,1.0,0.293901,"[produits sucrés, produits céréaliers, lait et...",Eté,0.0881703
+21,barre,12.0,chocolat noir,0.7,cassonade,0.808064,0.07136,"['aides culinaires et ingrédients divers', 'bo...",,0.049952
+22,barre,2.0,chocolat noir,0.7,chocolat au lait,0.949531,1.976935,"['produits céréaliers', 'produits sucrés']",,1.3838545
+23,barre,0.0,chocolat noir,0.7,poudre de cacao,0.969437,2.702175,"['boissons', 'lait et produits laitiers', 'pro...",,1.8915225
+24,barre,9.0,chocolat noir,0.7,confiture de lait,0.836257,0.021,,,0.0147
+25,barre,15.0,chocolat noir,0.7,sucre roux,0.802394,0.106,,,0.0742
+26,barre,8.0,chocolat noir,0.7,fruits confits,0.838573,0.107657,['produits céréaliers'],,0.0753599
+27,barre,6.0,chocolat noir,0.7,bicarbonate de soude,0.875485,0.119,,,0.0833
+28,barre,14.0,chocolat noir,0.7,meringue,0.805119,0.152,,,0.1064
+29,barre,11.0,chocolat noir,0.7,creme patissiere,0.816558,0.155,,,0.1085
+30,barre,1.0,chocolat noir,0.7,chocolat blanc,0.963429,0.193,,,0.1351
+31,barre,3.0,chocolat noir,0.7,beurre de cacao,0.915338,0.266,,,0.1862
+32,barre,4.0,chocolat noir,0.7,lecithine de soja,0.907393,0.352,,,0.2464
+33,barre,18.0,chocolat noir,0.7,creme de lait,0.772535,0.368,,,0.2576
+34,barre,7.0,chocolat noir,0.7,pate d'amande,0.859993,0.387,,,0.2709
+35,barre,16.0,chocolat noir,0.7,sauce au chocolat,0.796778,0.728,,,0.5096
+36,barre,13.0,chocolat noir,0.7,lait concentre,0.807151,0.75053,['produits sucrés'],,0.525371
+37,barre,17.0,chocolat noir,0.7,sucre vanille,0.773504,0.754,,,0.5278
+38,barre,19.0,chocolat noir,0.7,crepe dentelle,0.764653,0.826,,,0.5782
+39,barre,10.0,chocolat noir,0.7,cafe,0.819614,2.332855,"['boissons', 'lait et produits laitiers']",,1.6329985
+40,barre,0.0,chocolat noir,0.7,chocolat noir,1.0,3.963768,"[aides culinaires et ingrédients divers, glace...",,2.7746376
+41,barre,8.0,huile de tournesol,,puree de pomme de terre,0.554911,0.028679,"['entrées et plats composés', 'aliments infant...",,0.0
+42,barre,16.0,huile de tournesol,,lentilles,0.522941,0.041254,"['entrées et plats composés', 'produits céréal...",,0.0
+43,barre,13.0,huile de tournesol,,huile de colza,0.534383,0.18154,"['matières grasses', 'entrées et plats composé...",,0.0
+44,barre,5.0,huile de tournesol,,huile d'olive,0.56922,0.19588,"['viandes, œufs, poissons', 'aides culinaires ...",,0.0
+45,barre,15.0,huile de tournesol,,farine de riz,0.527656,0.590111,"['produits céréaliers', 'entrées et plats comp...",,0.0
+46,barre,4.0,huile de tournesol,,haricots verts,0.572471,0.011,,,0.0
+47,barre,17.0,huile de tournesol,,chips de pommes de terre,0.522488,0.224,,,0.0
+48,barre,3.0,huile de tournesol,,farine de chataigne,0.579106,0.229,,,0.0
+49,barre,10.0,huile de tournesol,,choucroute,0.54349,0.279896,['entrées et plats composés'],,0.0
+50,barre,18.0,huile de tournesol,,celeri branche,0.520419,0.302,,,0.0
+51,barre,6.0,huile de tournesol,,mais doux,0.564119,0.353,,,0.0
+52,barre,12.0,huile de tournesol,,levure alimentaire,0.537556,0.592,,,0.0
+53,barre,0.0,huile de tournesol,,huile de tournesol,1.0,0.598352,"[entrées et plats composés, aides culinaires e...",,0.0
+54,barre,13.0,pomme,,poire,0.902292,0.050273,"['fruits, légumes, légumineuses et oléagineux'...",Hiver,0.0
+55,barre,13.0,pomme,,poire,0.902292,0.050273,"['fruits, légumes, légumineuses et oléagineux'...",Printemps,0.0
+56,barre,13.0,pomme,,poire,0.902292,0.050273,"['fruits, légumes, légumineuses et oléagineux'...",Eté,0.0
+57,barre,13.0,pomme,,poire,0.902292,0.050273,"['fruits, légumes, légumineuses et oléagineux'...",Automne,0.0
+58,barre,8.0,pomme,,goyave,0.927247,0.116,,,0.0
+59,barre,1.0,pomme,,orange,0.945557,0.139611,"['boissons', 'produits sucrés', 'aliments infa...",Hiver,0.0
+60,barre,1.0,pomme,,orange,0.945557,0.139611,"['boissons', 'produits sucrés', 'aliments infa...",Automne,0.0
+61,barre,19.0,pomme,,myrtille,0.881611,0.1615,,Eté,0.0
+62,barre,19.0,pomme,,myrtille,0.881611,0.1615,,Automne,0.0
+63,barre,16.0,pomme,,grenade,0.892233,0.167605,['boissons'],,0.0
+64,barre,0.0,pomme,,cassis,0.961966,0.176,,Printemps,0.0
+65,barre,0.0,pomme,,cassis,0.961966,0.176,,Eté,0.0
+66,barre,17.0,pomme,,peche,0.890007,0.207248,"['fruits, légumes, légumineuses et oléagineux']",,0.0
+67,barre,10.0,pomme,,groseille,0.912239,0.229612,['boissons'],Printemps,0.0
+68,barre,10.0,pomme,,groseille,0.912239,0.229612,['boissons'],Eté,0.0
+69,barre,6.0,pomme,,radis,0.932143,0.249,,Hiver,0.0
+70,barre,6.0,pomme,,radis,0.932143,0.249,,Printemps,0.0
+71,barre,6.0,pomme,,radis,0.932143,0.249,,Eté,0.0
+72,barre,6.0,pomme,,radis,0.932143,0.249,,Automne,0.0
+73,barre,0.0,pomme,,pomme,1.0,0.262907,[boissons],Hiver,0.0
+74,barre,0.0,pomme,,pomme,1.0,0.262907,[boissons],Printemps,0.0
+75,barre,0.0,pomme,,pomme,1.0,0.262907,[boissons],Eté,0.0
+76,barre,0.0,pomme,,pomme,1.0,0.262907,[boissons],Automne,0.0
+77,barre,2.0,lait concentre,,vanille,0.951693,0.001261,['produits céréaliers'],,0.0
+78,barre,3.0,lait concentre,,confiture de lait,0.950164,0.021,,,0.0
+79,barre,7.0,lait concentre,,sirop,0.928602,0.069531,['boissons'],,0.0
+80,barre,18.0,lait concentre,,cassonade,0.888191,0.07136,"['aides culinaires et ingrédients divers', 'bo...",,0.0
+81,barre,8.0,lait concentre,,bicarbonate de soude,0.922261,0.119,,,0.0
+82,barre,12.0,lait concentre,,liqueur,0.915503,0.125,,,0.0
+83,barre,4.0,lait concentre,,meringue,0.949933,0.152,,,0.0
+84,barre,16.0,lait concentre,,lait de brebis,0.897137,0.242,,,0.0
+85,barre,17.0,lait concentre,,beurre de cacao,0.890457,0.266,,,0.0
+86,barre,9.0,lait concentre,,noix de macadamia,0.921592,0.305,,,0.0
+87,barre,11.0,lait concentre,,lecithine de soja,0.917869,0.352,,,0.0
+88,barre,19.0,lait concentre,,creme dessert au chocolat,0.886162,0.361,,,0.0
+89,barre,0.0,lait concentre,,pate d'amande,0.979001,0.387,,,0.0
+90,barre,10.0,lait concentre,,cerises,0.919735,0.583615,"['produits sucrés', 'lait et produits laitiers']",,0.0
+91,barre,13.0,lait concentre,,sauce au chocolat,0.913815,0.728,,,0.0
+92,barre,0.0,lait concentre,,lait concentre,1.0,0.75053,[produits sucrés],,0.0
+93,salade,12.0,epinard,,puree de pomme de terre,0.785182,0.028679,"['entrées et plats composés', 'aliments infant...",,0.0
+94,salade,11.0,epinard,,champignon,0.788039,0.033373,"['viandes, œufs, poissons', 'aides culinaires ...",,0.0
+95,salade,9.0,epinard,,carotte,0.801704,0.05689,"['aides culinaires et ingrédients divers', 'en...",Hiver,0.0
+96,salade,9.0,epinard,,carotte,0.801704,0.05689,"['aides culinaires et ingrédients divers', 'en...",Printemps,0.0
+97,salade,9.0,epinard,,carotte,0.801704,0.05689,"['aides culinaires et ingrédients divers', 'en...",Eté,0.0
+98,salade,9.0,epinard,,carotte,0.801704,0.05689,"['aides culinaires et ingrédients divers', 'en...",Automne,0.0
+99,salade,13.0,epinard,,tomate,0.781377,0.096879,"['aides culinaires et ingrédients divers', 'en...",Printemps,0.0
+100,salade,13.0,epinard,,tomate,0.781377,0.096879,"['aides culinaires et ingrédients divers', 'en...",Eté,0.0
+101,salade,13.0,epinard,,tomate,0.781377,0.096879,"['aides culinaires et ingrédients divers', 'en...",Automne,0.0
+102,salade,10.0,epinard,,poireau,0.798277,0.098156,"['aides culinaires et ingrédients divers', 'en...",Hiver,0.0
+103,salade,10.0,epinard,,poireau,0.798277,0.098156,"['aides culinaires et ingrédients divers', 'en...",Hiver,0.0
+104,salade,10.0,epinard,,poireau,0.798277,0.098156,"['aides culinaires et ingrédients divers', 'en...",Printemps,0.0
+105,salade,10.0,epinard,,poireau,0.798277,0.098156,"['aides culinaires et ingrédients divers', 'en...",Eté,0.0
+106,salade,10.0,epinard,,poireau,0.798277,0.098156,"['aides culinaires et ingrédients divers', 'en...",Automne,0.0
+107,salade,1.0,epinard,,chou-fleur,0.884159,0.09875,,Printemps,0.0
+108,salade,3.0,epinard,,haricot vert,0.879741,0.110365,"['entrées et plats composés', 'fruits, légumes...",Printemps,0.0
+109,salade,3.0,epinard,,haricot vert,0.879741,0.110365,"['entrées et plats composés', 'fruits, légumes...",Eté,0.0
+110,salade,3.0,epinard,,haricot vert,0.879741,0.110365,"['entrées et plats composés', 'fruits, légumes...",Automne,0.0
+111,salade,4.0,epinard,,celeri-rave,0.853598,0.186708,"['fruits, légumes, légumineuses et oléagineux'...",,0.0
+112,salade,16.0,epinard,,chou vert,0.714106,0.203507,['entrées et plats composés'],,0.0
+113,salade,7.0,epinard,,potiron,0.847828,0.204245,['entrées et plats composés'],Eté,0.0
+114,salade,0.0,epinard,,epinard,1.0,0.220338,[entrées et plats composés],Hiver,0.0
+115,salade,0.0,epinard,,epinard,1.0,0.220338,[entrées et plats composés],Printemps,0.0
+116,salade,0.0,epinard,,epinard,1.0,0.220338,[entrées et plats composés],Eté,0.0
+117,salade,0.0,epinard,,epinard,1.0,0.220338,[entrées et plats composés],Automne,0.0
+118,salade,0.0,salade verte,,salade verte,1.0,0.02232,[entrées et plats composés],,0.0
+119,salade,18.0,tomate,,champignon,0.702318,0.033373,"['viandes, œufs, poissons', 'aides culinaires ...",,0.0
+120,salade,7.0,tomate,,carotte,0.745133,0.05689,"['aides culinaires et ingrédients divers', 'en...",Hiver,0.0
+121,salade,7.0,tomate,,carotte,0.745133,0.05689,"['aides culinaires et ingrédients divers', 'en...",Printemps,0.0
+122,salade,7.0,tomate,,carotte,0.745133,0.05689,"['aides culinaires et ingrédients divers', 'en...",Eté,0.0
+123,salade,7.0,tomate,,carotte,0.745133,0.05689,"['aides culinaires et ingrédients divers', 'en...",Automne,0.0
+124,salade,0.0,tomate,,tomate,1.0,0.096879,"[aides culinaires et ingrédients divers, entré",Printemps,0.0
+125,salade,0.0,tomate,,tomate,1.0,0.096879,"[aides culinaires et ingrédients divers, entré",Eté,0.0
+126,salade,0.0,tomate,,tomate,1.0,0.096879,"[aides culinaires et ingrédients divers, entré",Automne,0.0
+127,salade,4.0,quinoa,,sarrasin,0.770391,0.015799,['produits céréaliers'],Eté,0.0
+128,salade,4.0,quinoa,,sarrasin,0.770391,0.015799,['produits céréaliers'],Automne,0.0
+129,salade,12.0,quinoa,,haricot mungo,0.727075,0.108475,"['matières grasses', 'entrées et plats composé...",,0.0
+130,salade,7.0,quinoa,,son de riz,0.76023,0.117,,,0.0
+131,salade,9.0,quinoa,,haricot rouge,0.747253,0.156095,['entrées et plats composés'],,0.0
+132,salade,17.0,quinoa,,artichaut,0.701296,0.2378,,Printemps,0.0
+133,salade,17.0,quinoa,,artichaut,0.701296,0.2378,,Eté,0.0
+134,salade,10.0,quinoa,,huile de mais,0.731023,0.332,,,0.0
+135,salade,1.0,quinoa,,lentille,0.819051,0.375,,Hiver,0.0
+136,salade,1.0,quinoa,,lentille,0.819051,0.375,,Automne,0.0
+137,salade,2.0,quinoa,,chia,0.788393,0.375,,,0.0
+138,salade,15.0,quinoa,,igname,0.711026,0.3795,,,0.0
+139,salade,0.0,quinoa,,quinoa,1.0,0.417,,Eté,0.0
+140,salade,0.0,quinoa,,quinoa,1.0,0.417,,Automne,0.0
+141,salade,8.0,quinoa,,echalote,0.680052,0.016727,"['aides culinaires et ingrédients divers', 'en...",Automne,0.0
+142,salade,7.0,oignon,,champignon,0.689964,0.033373,"['viandes, œufs, poissons', 'aides culinaires ...",,0.0
+143,salade,12.0,oignon,,curcuma,0.652104,0.047,,,0.0
+144,salade,13.0,oignon,,carotte,0.650484,0.05689,"['aides culinaires et ingrédients divers', 'en...",Hiver,0.0
+145,salade,13.0,oignon,,carotte,0.650484,0.05689,"['aides culinaires et ingrédients divers', 'en...",Printemps,0.0
+146,salade,13.0,oignon,,carotte,0.650484,0.05689,"['aides culinaires et ingrédients divers', 'en...",Eté,0.0
+147,salade,13.0,oignon,,carotte,0.650484,0.05689,"['aides culinaires et ingrédients divers', 'en...",Automne,0.0
+148,salade,1.0,oignon,,poireau,0.735545,0.098156,"['aides culinaires et ingrédients divers', 'en...",Hiver,0.0
+149,salade,1.0,oignon,,poireau,0.735545,0.098156,"['aides culinaires et ingrédients divers', 'en...",Hiver,0.0
+150,salade,1.0,oignon,,poireau,0.735545,0.098156,"['aides culinaires et ingrédients divers', 'en...",Printemps,0.0
+151,salade,1.0,oignon,,poireau,0.735545,0.098156,"['aides culinaires et ingrédients divers', 'en...",Eté,0.0
+152,salade,1.0,oignon,,poireau,0.735545,0.098156,"['aides culinaires et ingrédients divers', 'en...",Automne,0.0
+153,salade,4.0,oignon,,chou-fleur,0.708745,0.09875,,Printemps,0.0
+154,salade,6.0,oignon,,haricot vert,0.693327,0.110365,"['entrées et plats composés', 'fruits, légumes...",Printemps,0.0
+155,salade,6.0,oignon,,haricot vert,0.693327,0.110365,"['entrées et plats composés', 'fruits, légumes...",Eté,0.0
+156,salade,6.0,oignon,,haricot vert,0.693327,0.110365,"['entrées et plats composés', 'fruits, légumes...",Automne,0.0
+157,salade,16.0,oignon,,poivron rouge,0.640889,0.162,,,0.0
+158,salade,5.0,oignon,,celeri-rave,0.69548,0.186708,"['fruits, légumes, légumineuses et oléagineux'...",,0.0
+159,salade,11.0,oignon,,chou vert,0.652272,0.203507,['entrées et plats composés'],,0.0
+160,salade,17.0,oignon,,potiron,0.640746,0.204245,['entrées et plats composés'],Eté,0.0
+161,salade,19.0,oignon,,epinard,0.638559,0.220338,['entrées et plats composés'],Hiver,0.0
+162,salade,19.0,oignon,,epinard,0.638559,0.220338,['entrées et plats composés'],Printemps,0.0
+163,salade,19.0,oignon,,epinard,0.638559,0.220338,['entrées et plats composés'],Eté,0.0
+164,salade,19.0,oignon,,epinard,0.638559,0.220338,['entrées et plats composés'],Automne,0.0
+165,salade,3.0,oignon,,brocoli,0.718777,0.221277,['entrées et plats composés'],Printemps,0.0
+166,salade,3.0,oignon,,brocoli,0.718777,0.221277,['entrées et plats composés'],Eté,0.0
+167,salade,3.0,oignon,,brocoli,0.718777,0.221277,['entrées et plats composés'],Automne,0.0
+168,salade,2.0,oignon,,panais,0.734588,0.246,,Hiver,0.0
+169,salade,2.0,oignon,,panais,0.734588,0.246,,Eté,0.0
+170,salade,2.0,oignon,,panais,0.734588,0.246,,Automne,0.0
+171,salade,10.0,oignon,,chou blanc,0.667556,0.297909,['entrées et plats composés'],,0.0
+172,salade,14.0,oignon,,celeri branche,0.64569,0.302,,,0.0
+173,salade,9.0,oignon,,bouillon de legumes,0.674256,0.321,,,0.0
+174,salade,0.0,oignon,,oignon,1.0,0.3925,,Printemps,0.0
+175,salade,18.0,parmesan,,origan,0.778781,0.05734,['aides culinaires et ingrédients divers'],,0.0
+176,salade,15.0,parmesan,,pain de mie,0.781926,0.075,,,0.0
+177,salade,13.0,parmesan,,semoule de ble dur,0.791958,0.132,,,0.0
+178,salade,4.0,parmesan,,sauce bechamel,0.849725,0.276,,,0.0
+179,salade,19.0,parmesan,,pates,0.777177,0.309998,['entrées et plats composés'],,0.0
+180,salade,17.0,parmesan,,tomate cerise,0.778944,0.509,,,0.0
+181,salade,12.0,parmesan,,comte,0.793074,0.542258,['entrées et plats composés'],,0.0
+182,salade,11.0,parmesan,,gorgonzola,0.80881,0.543,,,0.0
+183,salade,2.0,parmesan,,grana padano,0.881918,0.627,,,0.0
+184,salade,5.0,parmesan,,edam,0.842052,0.627,,,0.0
+185,salade,9.0,parmesan,,cheddar,0.823404,0.627,,,0.0
+186,salade,16.0,parmesan,,gouda,0.778955,0.627,,,0.0
+187,salade,0.0,parmesan,,parmesan,1.0,0.637643,"[aides culinaires et ingrédients divers, entré.",,0.0
+188,salade,8.0,tomate cerise,,olives,0.769718,0.016174,"['aides culinaires et ingrédients divers', 'en...",,0.0
+189,salade,7.0,tomate cerise,,salade verte,0.772382,0.02232,['entrées et plats composés'],,0.0
+190,salade,10.0,tomate cerise,,tomate,0.75475,0.096879,"['aides culinaires et ingrédients divers', 'en...",Printemps,0.0
+191,salade,10.0,tomate cerise,,tomate,0.75475,0.096879,"['aides culinaires et ingrédients divers', 'en...",Eté,0.0
+192,salade,10.0,tomate cerise,,tomate,0.75475,0.096879,"['aides culinaires et ingrédients divers', 'en...",Automne,0.0
+193,salade,0.0,tomate cerise,,vinaigre balsamique,0.849069,0.112,,,0.0
+194,salade,5.0,tomate cerise,,jambon cru,0.783879,0.126,,,0.0
+195,salade,17.0,tomate cerise,,sauce au yaourt,0.717334,0.167,,,0.0
+196,salade,15.0,tomate cerise,,mayonnaise,0.721088,0.221,,,0.0
+197,salade,3.0,tomate cerise,,mais doux,0.81022,0.353,,,0.0
+198,salade,16.0,tomate cerise,,fromage blanc,0.717704,0.368,,,0.0
+199,salade,9.0,tomate cerise,,anchois,0.767328,0.445976,"['aides culinaires et ingrédients divers', 'vi...",,0.0
+200,salade,2.0,tomate cerise,,salade,0.820747,0.462334,['entrées et plats composés'],,0.0
+201,salade,13.0,tomate cerise,,saumon fume,0.740728,0.495,,,0.0
+202,salade,0.0,tomate cerise,,tomate cerise,1.0,0.509,,,0.0
+203,salade,11.0,concombre,,salade verte,0.705951,0.02232,['entrées et plats composés'],,0.0
+204,salade,4.0,concombre,,menthe,0.75236,0.029435,['boissons'],,0.0
+205,salade,13.0,concombre,,feves,0.681121,0.040506,['entrées et plats composés'],,0.0
+206,salade,19.0,concombre,,ananas,0.635528,0.082807,"['fruits, légumes, légumineuses et oléagineux'...",,0.0
+207,salade,3.0,concombre,,jus de citron,0.802933,0.086127,"['aides culinaires et ingrédients divers', 'en...",,0.0
+208,salade,7.0,concombre,,tomate,0.739377,0.096879,"['aides culinaires et ingrédients divers', 'en...",Printemps,0.0
+209,salade,7.0,concombre,,tomate,0.739377,0.096879,"['aides culinaires et ingrédients divers', 'en...",Eté,0.0
+210,salade,7.0,concombre,,tomate,0.739377,0.096879,"['aides culinaires et ingrédients divers', 'en...",Automne,0.0
+211,salade,16.0,concombre,,vinaigre balsamique,0.675484,0.112,,,0.0
+212,salade,9.0,concombre,,surimi,0.721147,0.153,,,0.0
+213,salade,10.0,concombre,,poivron rouge,0.706486,0.162,,,0.0
+214,salade,6.0,concombre,,mayonnaise,0.741476,0.221,,,0.0
+215,salade,18.0,concombre,,yaourt,0.654232,0.243277,['aides culinaires et ingrédients divers'],,0.0
+216,salade,5.0,concombre,,chou blanc,0.751733,0.297909,['entrées et plats composés'],,0.0
+217,salade,12.0,concombre,,salade,0.681415,0.462334,['entrées et plats composés'],,0.0
+218,salade,2.0,concombre,,tomate cerise,0.807645,0.509,,,0.0
+219,salade,8.0,concombre,,pois chiche,0.731326,0.584,,,0.0
+220,salade,0.0,concombre,,concombre,1.0,0.619928,[entrées et plats composés],Printemps,0.0
+221,salade,0.0,concombre,,concombre,1.0,0.619928,[entrées et plats composés],Eté,0.0
+222,salade,0.0,concombre,,concombre,1.0,0.619928,[entrées et plats composés],Automne,0.0
+223,salade,18.0,boeuf,,safran,0.822938,0.012404,['entrées et plats composés'],,0.0
+224,salade,13.0,boeuf,,estragon,0.83448,0.022012,['aides culinaires et ingrédients divers'],,0.0
+225,salade,16.0,boeuf,,lentilles,0.828152,0.041254,"['entrées et plats composés', 'produits céréal...",,0.0
+226,salade,5.0,boeuf,,saucisse de toulouse,0.892136,0.089,,,0.0
+227,salade,17.0,boeuf,,eau de vie,0.82724,0.102833,"['aides culinaires et ingrédients divers', 'vi...",,0.0
+228,salade,0.0,boeuf,,foie,0.936961,0.210813,,,0.0
+229,salade,8.0,boeuf,,glace,0.858293,0.237,,,0.0
+230,salade,10.0,boeuf,,riz blanc,0.843771,0.2425,,,0.0
+231,salade,19.0,boeuf,,croutons,0.822639,0.256,,,0.0
+232,salade,11.0,boeuf,,hareng,0.840976,0.2575,,,0.0
+233,salade,2.0,boeuf,,choucroute,0.9078,0.279896,['entrées et plats composés'],,0.0
+234,salade,3.0,boeuf,,maquereau,0.905688,0.310333,,,0.0
+235,salade,4.0,boeuf,,sang,0.901547,0.335,,,0.0
+236,salade,12.0,boeuf,,tripes,0.836113,0.336,,,0.0
+237,salade,1.0,boeuf,,boeuf,0.912189,0.351268,,,0.0
+238,salade,9.0,boeuf,,graisse de porc,0.85228,0.365823,"['viandes, œufs, poissons']",,0.0
+239,salade,0.0,boeuf,,porc,1.0,0.488543,,,0.0
+240,,,,,,,,,,0.0
+241,,,,,,,,,,0.0
+242,,,,,,,,,,0.0
+243,,,,,,,,,,0.0
+244,,,,,,,,,,0.0
+245,,,,,,,,,,0.0
+246,,,,,,,,,,0.0
+247,,,,,,,,,,0.0
+248,,,,,,,,,,0.0
+249,,,,,,,,,,0.0
+250,,,,,,,,,,0.0
+251,,,,,,,,,,0.0
+252,,,,,,,,,,0.0
+253,,,,,,,,,,0.0
+254,,,,,,,,,,0.0
+255,,,,,,,,,,0.0
+256,,,,,,,,,,0.0
+257,,,,,,,,,,0.0
+258,,,,,,,,,,0.0
+259,,,,,,,,,,0.0
+260,,,,,,,,,,0.0
+261,,,,,,,,,,0.0
+262,,,,,,,,,,0.0
+263,,,,,,,,,,0.0
+264,,,,,,,,,,0.0
+265,,,,,,,,,,0.0
+266,,,,,,,,,,0.0
+267,,,,,,,,,,0.0
+268,,,,,,,,,,0.0
+269,,,,,,,,,,0.0
+270,,,,,,,,,,0.0
+271,,,,,,,,,,0.0
+272,,,,,,,,,,0.0
+273,,,,,,,,,,0.0
+274,,,,,,,,,,0.0
+275,,,,,,,,,,0.0
+276,,,,,,,,,,0.0
+277,,,,,,,,,,0.0
+278,,,,,,,,,,0.0
+279,,,,,,,,,,0.0
+280,,,,,,,,,,0.0
+281,,,,,,,,,,0.0
+282,,,,,,,,,,0.0
+283,,,,,,,,,,0.0
+284,,,,,,,,,,0.0
+285,,,,,,,,,,0.0
+286,,,,,,,,,,0.0
+287,,,,,,,,,,0.0
+288,,,,,,,,,,0.0
+289,,,,,,,,,,0.0
+290,,,,,,,,,,0.0
+291,,,,,,,,,,0.0
+292,,,,,,,,,,0.0
+293,,,,,,,,,,0.0
+294,,,,,,,,,,0.0
+295,,,,,,,,,,0.0
+296,,,,,,,,,,0.0
+297,,,,,,,,,,0.0
+298,,,,,,,,,,0.0
+299,,,,,,,,,,0.0
+300,,,,,,,,,,0.0
+301,,,,,,,,,,0.0
+302,,,,,,,,,,0.0
+303,,,,,,,,,,0.0
+304,,,,,,,,,,0.0
+305,,,,,,,,,,0.0
+306,,,,,,,,,,0.0
+307,,,,,,,,,,0.0
+308,,,,,,,,,,0.0
+309,,,,,,,,,,0.0
+310,,,,,,,,,,0.0
+311,,,,,,,,,,0.0
+312,,,,,,,,,,0.0
+313,,,,,,,,,,0.0
+314,,,,,,,,,,0.0
+315,,,,,,,,,,0.0
+316,,,,,,,,,,0.0
+317,,,,,,,,,,0.0
+318,,,,,,,,,,0.0
+319,,,,,,,,,,0.0
+320,,,,,,,,,,0.0
+321,,,,,,,,,,0.0
+322,,,,,,,,,,0.0
+323,,,,,,,,,,0.0
+324,,,,,,,,,,0.0
+325,,,,,,,,,,0.0
+326,,,,,,,,,,0.0
+327,,,,,,,,,,0.0
+328,,,,,,,,,,0.0
+329,,,,,,,,,,0.0
+330,,,,,,,,,,0.0
+331,,,,,,,,,,0.0
+332,,,,,,,,,,0.0
+333,,,,,,,,,,0.0
+334,,,,,,,,,,0.0
+335,,,,,,,,,,0.0
+336,,,,,,,,,,0.0
+337,,,,,,,,,,0.0
+338,,,,,,,,,,0.0
+339,,,,,,,,,,0.0
+340,,,,,,,,,,0.0
+341,,,,,,,,,,0.0
+342,,,,,,,,,,0.0
+343,,,,,,,,,,0.0
+344,,,,,,,,,,0.0
+345,,,,,,,,,,0.0
+346,,,,,,,,,,0.0
+347,,,,,,,,,,0.0
+348,,,,,,,,,,0.0
+349,,,,,,,,,,0.0
+350,,,,,,,,,,0.0
+351,,,,,,,,,,0.0
+352,,,,,,,,,,0.0
+353,,,,,,,,,,0.0
+354,,,,,,,,,,0.0
+355,,,,,,,,,,0.0
+356,,,,,,,,,,0.0
+357,,,,,,,,,,0.0
+358,,,,,,,,,,0.0
+359,,,,,,,,,,0.0
+360,,,,,,,,,,0.0
+361,,,,,,,,,,0.0
+362,,,,,,,,,,0.0
+363,,,,,,,,,,0.0
+364,,,,,,,,,,0.0
+365,,,,,,,,,,0.0
+366,,,,,,,,,,0.0
+367,,,,,,,,,,0.0
+368,,,,,,,,,,0.0
+369,,,,,,,,,,0.0
+370,,,,,,,,,,0.0
+371,,,,,,,,,,0.0
+372,,,,,,,,,,0.0
+373,,,,,,,,,,0.0
+374,,,,,,,,,,0.0
+375,,,,,,,,,,0.0
+376,,,,,,,,,,0.0
+377,,,,,,,,,,0.0
+378,,,,,,,,,,0.0
+379,,,,,,,,,,0.0
+380,,,,,,,,,,0.0
+381,,,,,,,,,,0.0
+382,,,,,,,,,,0.0
+383,,,,,,,,,,0.0
+384,,,,,,,,,,0.0
+385,,,,,,,,,,0.0
+386,,,,,,,,,,0.0
+387,,,,,,,,,,0.0
+388,,,,,,,,,,0.0
+389,,,,,,,,,,0.0
+390,,,,,,,,,,0.0
+391,,,,,,,,,,0.0
+392,,,,,,,,,,0.0
+393,,,,,,,,,,0.0
+394,,,,,,,,,,0.0
+395,,,,,,,,,,0.0
+396,,,,,,,,,,0.0
+397,,,,,,,,,,0.0
+398,,,,,,,,,,0.0
+399,,,,,,,,,,0.0
+400,,,,,,,,,,0.0
+401,,,,,,,,,,0.0
+402,,,,,,,,,,0.0
+403,,,,,,,,,,0.0
+404,,,,,,,,,,0.0
+405,,,,,,,,,,0.0
+406,,,,,,,,,,0.0
+407,,,,,,,,,,0.0
+408,,,,,,,,,,0.0
+409,,,,,,,,,,0.0
+410,,,,,,,,,,0.0
+411,,,,,,,,,,0.0
+412,,,,,,,,,,0.0
+413,,,,,,,,,,0.0
+414,,,,,,,,,,0.0
+415,,,,,,,,,,0.0
+416,,,,,,,,,,0.0
+417,,,,,,,,,,0.0
+418,,,,,,,,,,0.0
+419,,,,,,,,,,0.0
+420,,,,,,,,,,0.0
+421,,,,,,,,,,0.0
+422,,,,,,,,,,0.0
+423,,,,,,,,,,0.0
+424,,,,,,,,,,0.0
+425,,,,,,,,,,0.0
+426,,,,,,,,,,0.0
+427,,,,,,,,,,0.0
+428,,,,,,,,,,0.0
+429,,,,,,,,,,0.0
+430,,,,,,,,,,0.0
+431,,,,,,,,,,0.0
+432,,,,,,,,,,0.0
+433,,,,,,,,,,0.0
+434,,,,,,,,,,0.0
+435,,,,,,,,,,0.0
+436,,,,,,,,,,0.0
+437,,,,,,,,,,0.0
+438,,,,,,,,,,0.0
+439,,,,,,,,,,0.0
+440,,,,,,,,,,0.0
+441,,,,,,,,,,0.0
+442,,,,,,,,,,0.0
+443,,,,,,,,,,0.0
+444,,,,,,,,,,0.0
+445,,,,,,,,,,0.0
+446,,,,,,,,,,0.0
+447,,,,,,,,,,0.0
+448,,,,,,,,,,0.0
+449,,,,,,,,,,0.0
+450,,,,,,,,,,0.0
+451,,,,,,,,,,0.0
+452,,,,,,,,,,0.0
+453,,,,,,,,,,0.0
+454,,,,,,,,,,0.0
+455,,,,,,,,,,0.0
+456,,,,,,,,,,0.0
+457,,,,,,,,,,0.0
+458,,,,,,,,,,0.0
+459,,,,,,,,,,0.0
+460,,,,,,,,,,0.0
